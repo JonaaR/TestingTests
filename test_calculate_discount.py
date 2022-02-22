@@ -63,3 +63,14 @@ class TestCalculateDiscount(unittest.TestCase):
         result = calculate_discount(amount, member)
 
         assert result == pytest.approx(expected, rel=1e-3)
+
+
+
+    def test_calculate_discount_member_10(self):
+        expected = (1 / 2 * 4 / 5)
+        amount = 10
+        member = True
+
+        result = calculate_discount(amount, member)
+
+        assert result == pytest.approx(expected, rel=1e-3)

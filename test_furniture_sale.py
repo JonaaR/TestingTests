@@ -83,7 +83,7 @@ _invalid_test_data = [
     pytest.param(Decimal('0.00'), date(2022, 12, 24), id="2"),
     pytest.param(Decimal('-0.01'), date(2022, 12, 24), id="3"),
     pytest.param(Decimal('100.00'), "leet", id="4"),
-    pytest.param(Decimal('100.00'), date(2022, 12, 27), id="5"),
+    pytest.param(Decimal('100.00'), date(2022, 11, 27), id="5"),
     pytest.param(Decimal('100.00'), date(2022, 12, 26), id="6"),
 ]
 
